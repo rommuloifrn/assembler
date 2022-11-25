@@ -1,0 +1,4 @@
+.text texto depois do pontotexxto
+isso eh um oi
+# e isso um comentario. 
+:rotulo texto depois do rotulo

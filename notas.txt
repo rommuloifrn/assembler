@@ -1,0 +1,13 @@
+Divisão de módulos:
+
+- ignite (colhe o nome do arquivo de entra e o nome do arquivo de saída, inicia o montador)
+- processamento (processa o texto do arquivo de acordo com os dicionários)
+    . limpeza (limpa o texto do que não importa)
+    . montagem (substitui o que sobrou da limpeza por seus respectivos valores)
+
+
+Processo:
+    - leitura e armazenamento do arquivo
+    - limpeza do arquivo por linha
+    - processamento do aqrquivo por linha
+    - escrita de arquivo por linha
