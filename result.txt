@@ -1,0 +1,5 @@
+  texto depois do pontotexxto
+isso eh um oi
+texto antes do comentario 
+antes de mim tem um cifraozinho.
+rotulo texto depois do rotulo

@@ -10,9 +10,14 @@ def limpar(linha):
     if "#" in linha:
         linha = linha[ :linha.index("#") ]
 
-    #linha = linha.replace(",", " ")
-    #linha = linha.replace("$", " ")
-    #linha = linha.replace(" ", " ")
+    if "," in linha:
+        linha = linha.replace(",", "")
+
+    if "$" in linha:
+        linha = linha.replace("$", "")
+        
+    if "    " in linha:
+        linha = linha.replace(" ", "")
 
     return linha
 
