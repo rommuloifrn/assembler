@@ -5,12 +5,13 @@ def processar(arquivo):
 
     arquivo = open(os.path.abspath(arquivo), "r")
     linhas = arquivo.read().split("\n")
-    for linha in linhas:
-        limpar(linha)
-
-    print("pré-limpeza:", linhas)
-    linhas = limpar(linhas)
-    print("pós-limpeza:", linhas)
+    print("print de teste, as linhas são: ", linhas)
     
+    for linha in linhas:
+        linha = limpar(linha)
+        print(linha)
+
+    print("pós limpeza:", linhas)
+
 
     arquivo.close()

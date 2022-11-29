@@ -1,7 +1,7 @@
 def limpar(linha):
 
-    if "." in linha:
-        linha = linha.replace(".text", "")
+    if ".text" in linha:
+        linha = linha.replace(".text", " ")
 
     if ":" in linha:
         doispontos = linha.index(":")

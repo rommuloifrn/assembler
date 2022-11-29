@@ -1,4 +1,5 @@
-import os
-ximbas = "aaameuamigo"
-ximbas = ximbas[ximbas.index("u") +1 :]
-print(ximbas)
+myvar = input()
+if "ximbas" in myvar:
+    print("tem sim")
+    myvar = myvar.replace("ximbas", "romeu, o criador de roma")
+print(myvar)
